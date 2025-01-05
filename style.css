@@ -71,7 +71,7 @@ a {
     font-size: 18px;
 }
 
-button {
+.button1 {
     background-color: #3882F6;
     color: #f9faf8;
     width: 130px;
@@ -95,7 +95,7 @@ button {
 }
 
 .middle {
-    height: 600px;
+    height: 390px;
 }
 
 .random-information {
@@ -155,3 +155,79 @@ button {
     font-size: 18px;
 }
 
+.quote-container {
+    background-color: #e5e7eb;
+    height: 440px; 
+    display: flex;
+    flex-direction: row;
+}
+
+.quote-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0px 310px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.signature {
+    color:#1f2937;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.bottom {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: #f9faf8;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px #f9faf8;
+    border-style: solid;
+}
+
+.sign-up-main-text {
+    color:#f9faf8;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sign-up-secondary-text {
+    color: #e5e7eb;
+}
